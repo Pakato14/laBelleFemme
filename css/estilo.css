@@ -1,6 +1,20 @@
+/*Estilo Daniel*/
+@import url('https://fonts.googleapis.com/css?family=Arizonia|Herr+Von+Muellerhoff|Montserrat:400,500i,600,600i,700,800,800i|Parisienne');
+/*
+    font-family: 'Arizonia', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Herr Von Muellerhoff', cursive;
+
+*/
 .navbar{
   margin: 20px 0px 10px 250px;
   z-index: 2;
+}
+.logo{
+  font-family: 'Parisienne', cursive;
+  color: #fc84b4 !important;
+  font-size: 25px;
 }
 .carousel {
     position: absolute;
@@ -18,3 +32,102 @@
     display: block;
     top: 750px;
   }
+  .texto-slide{
+    color: #FFF;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 20px;
+    width: 60%;
+    border-radius: 5px;
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+  }
+  .texto-slide h5{
+    font-family: 'Parisienne', cursive;
+    color: #fc84b4;
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1em;
+  }
+  .texto-slide h1{
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 0.84em;
+  }
+  .texto-slide button{
+    background-color: #fc84b4;
+    color:#fff;
+    font-family: "Montserrat", Sans-serif;
+  }
+  .texto-slide p{
+    font-family: "Montserrat", Sans-serif;
+  }
+  .info-contato{
+    background-color: #fc84b4;
+    color: #fff;
+  }
+  .info-contato p{
+    padding-top: 50px;
+  }
+  .copyright{
+    background-color: #000;
+    color: #fc0fc0;
+  }
+
+  /*Estilo Daniel*/
+
+  /*Estilos kevin*/
+
+.card-fonte-cursiva{
+  font-family: 'Arizonia', cursive;
+  text-align:center; font-size:50px;
+  color:#fc0fc0;
+  margin: 0;
+  padding: 30px 0 0 0;
+  line-height: 10px;
+}
+.card-texto-cinza{
+  color:gray;
+  font-size:15px;
+}
+.card-texto-enorme{
+  font-size: 40px;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1px;
+}
+.section-desconto{
+  background-image: url('../img/beauty-salon-img7.jpg');
+  position: relative;
+  display: block;
+  top: 820px;
+}
+.texto-section-grande{
+  font-size:150px;
+  font-weight:bolder;
+  color: white;
+  margin: 0;
+  padding: 30px 0 0 0;
+  line-height: 150px;
+}
+.botao-section{
+  margin-bottom: 40px;
+  margin-top: 20px;
+  border-color: #fc0fc0;
+  background-color: #fc0fc0;
+  color: white;
+  font-weight: bold;
+}
+.footer{
+    position: relative;
+    display: block;
+    top: 820px;    
+}
+  /*Fim estilos kevin*/
