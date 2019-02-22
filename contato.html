@@ -10,28 +10,29 @@
     <title>La Belle Femme</title>
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-sm navbar-light" style="background-color: transparent;">
-        <a href="#" class="navbar-brand logo">La Belle Femme</a>
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-expand-sm navbar-light frente" style="background-color: transparent;">
         <button class="navbar-toggler" data-toggle="collapse" data-target="#menuPrincipal"><span class="navbar-toggler-icon"></span></button>
         <div class="container">
-            <div class="collapse navbar-collapse" id="menuPrincipal">
+            <div class="nav  justify-content-end collapse navbar-collapse" id="menuPrincipal">
+              <a href="index.html" class="navbar-brand logo">La Belle Femme</a>
                 <ul class="navbar-nav mr-auto">
-                    <li class="dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Nossos Serviços</a>
+                    <li class="dropdown"><a href="#" class="nav-link dropdown-toggle link-menu" data-toggle="dropdown">Nossos Serviços</a>
                         <ul class="dropdown-menu">
-                            <li><a href="maquiagem.html" class="dropdown-item">Maquiagem</a></li>
-                            <li><a href="#" class="dropdown-item">Estética</a></li>
-                            <li><a href="#" class="dropdown-item">Cabelo</a></li>
-                            <li><a href="#" class="dropdown-item">Pele</a></li>
-                            <li><a href="#" class="dropdown-item">Unhas</a></li>
+                            <li><a href="maquiagem.html" class="dropdown-item link-menu">Maquiagem</a></li>
+                            <li><a href="#" class="dropdown-item link-menu">Estética</a></li>
+                            <li><a href="#" class="dropdown-item link-menu">Cabelo</a></li>
+                            <li><a href="#" class="dropdown-item link-menu">Pele</a></li>
+                            <li><a href="#" class="dropdown-item link-menu">Unhas</a></li>
                         </ul>
                     </li>
-                    <li><a href="sobre.html" class="nav-link">Sobre</a></li>
-                    <li><a href="contato.html" class="nav-link">Contato</a></li>
-                    <li><a href="#" class="nav-link"><i class="fas fa-search"></i></i></a></li>
-                    <li><a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#" class="nav-link"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#" class="nav-link"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="sobre.html" class="nav-link link-menu">Sobre</a></li>
+                    <li><a href="contato.html" class="nav-link link-menu">Contato</a></li>
+                    <li><a href="#" class="nav-link link-menu"><i class="fas fa-search"></i></i></a></li>
+                    <li><a href="#" class="nav-link link-menu"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" class="nav-link link-menu"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" class="nav-link link-menu"><i class="fab fa-instagram"></i></a></li>
                 </ul>
             </div><!-- fim .collapse -->
         </div><!-- fim .container -->
@@ -44,7 +45,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100 img-fluid" src="img/04.jpg" alt="Primeiro Slide">
+            <img class="d-block w-100 img-fluid" src="img/09.jpg" alt="Primeiro Slide">
             <div class="texto-slide">
               <h5>get your stylish</h5>
               <h1>Look Today</h1>
@@ -56,7 +57,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100 img-fluid" src="img/05.jpg" alt="Segundo Slide">
+            <img class="d-block w-100 img-fluid" src="img/07.jpg" alt="Segundo Slide">
             <div class="texto-slide">
               <h5>premier esthetics</h5>
               <h1>Services</h1>
@@ -68,7 +69,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100 img-fluid" src="img/06.jpg" alt="Terceiro Slide">
+            <img class="d-block w-100 img-fluid" src="img/08.jpg" alt="Terceiro Slide">
             <div class="texto-slide">
               <h5>ultimate experience</h5>
               <h1>In Hair Care</h1>
@@ -88,28 +89,88 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Próximo</span>
         </a>
+      </div>
     </div>
-  </header>
+  <div class="row section-contato">
+    <div class="col-md-12">
+      <h4 class="titulo-contato">Entre em contato conosco</h4>
+      <form class="jumbotron" action="" method="post">
 
-    <footer class="footer">
-        <div class="container center-block" style="text-align">
-            <div class="row">
+        <!-- Name input-->
+        <div class="form-group">
+          <label class="control-label" for="name">Nome</label>
+          <input id="name" name="name" type="text" placeholder="Digite seu nome" class="form-control">
+        </div>
 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3775988424422!2d-38.53017928498723!3d-3.727584097287988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c749ad3b64b933%3A0x1f7e93171e3d7174!2sUniversidade+do+Trabalho+Digital!5e0!3m2!1spt-BR!2sbr!4v1550665993625" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <!-- Email input-->
+        <div class="form-group">
+          <label class="control-label" for="email">E-mail</label>
+          <input id="email" name="email" type="text" placeholder="Digite email" class="form-control">
+        </div>
 
-            </div>
+        <!-- Message body -->
+        <div class="form-group">
+          <label class="control-label" for="message">Sua mensagem</label>
+          <textarea class="form-control" id="message" name="message" placeholder="Digite sua mensagem aqui..." rows="5"></textarea>
+        </div>
 
-            <div class="row">
+        <!-- Form actions -->
+        <div class="form-group">
+          <div class="col-md-12 text-center">
+            <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+          </div>
+        </div>
 
-              <!-- Copyright -->
-              <div class="">© 2018 Copyright:
-                <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-              </div>
-              <!-- Copyright -->
-
-            </div>
-
-    </footer>
+      </form>
+    </div>
+  </div>
+  <footer class="footer">
+		<div class="row info-contato">
+			<div class="col-md-4">
+				<p class="text-center">
+					<i class="fas fa-map-marker-alt"></i>
+					Address:
+					4578 Marmora Road, Glasgow
+				</p>
+			</div>
+			<div class="col-md-4">
+				<p class="text-center">
+					<i class="fas fa-phone"></i>
+					Have a Questions? Call us:
+					+7-495-1234567;
+					+7-495-1234568
+				</p>
+			</div>
+			<div class="col-md-4">
+				<p class="text-center">
+					<i class="far fa-clock"></i>
+					Working time:
+					Monday–Sunday: 10:00–20:00;
+				</p>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2486.324664936173!2d-0.05782634919365109!3d51.452195272459925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s4578+Marmora+Road%2C+Glasgow!5e0!3m2!1spt-BR!2sbr!4v1550712994698" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+		<!-- Copyright -->
+		<div class="container-fluid copyright">
+			<div class="row">
+				<div class="col-md-4 text-center logo">
+					<h5>La Belle Femme</h5>
+				</div>
+				<div class="col-md-4 text-center">
+					<h5>© 2018 Copyright:</h5>
+				</div>
+				<div class="col-md-4 text-center">
+					<i class="fab fa-facebook-f"></i>
+					<i class="fab fa-twitter"></i>
+					<i class="fab fa-instagram"></i>
+				</div>
+			</div>
+		</div>
+		<!-- Copyright -->
+	</div>
+</footer>
 
 
 

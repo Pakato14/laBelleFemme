@@ -7,9 +7,15 @@
     font-family: 'Herr Von Muellerhoff', cursive;
 
 */
-.navbar{
-  margin: 20px 0px 10px 250px;
+.frente{
   z-index: 2;
+  width: 100%;
+}
+#menuPrincipal {
+    margin-left: 20%;
+}
+.link-menu{
+  color: #007bff !important;
 }
 .logo{
   font-family: 'Parisienne', cursive;
@@ -17,8 +23,8 @@
   font-size: 25px;
 }
 .carousel {
-    position: absolute;
-    top: 0%;
+    /*position: absolute;
+    top: 0%;*/
     z-index: 1;
   }
   .dropdown-menu{
@@ -27,11 +33,11 @@
   .dropdown-item:focus, .dropdown-item:hover {
     background-color: #FFA9FF;
   }
-  .salon {
+  /*.salon {
     position: relative;
     display: block;
     top: 750px;
-  }
+  }*/
   .texto-slide{
     color: #FFF;
     background-color: rgba(0, 0, 0, .3);
@@ -78,11 +84,25 @@
   .copyright{
     background-color: #000;
     color: #fc0fc0;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
+  .copyright i{
+    padding-right: 15px;
+  }
+  .carousel {
+    position: relative;
+    top: -65px;
+}
 
-  /*Estilo Daniel*/
+
+  /*Fim Estilo Daniel*/
 
   /*Estilos kevin*/
+
+.space-after-row{
+  margin-bottom: 60px;
+}
 
 .card-fonte-cursiva{
   font-family: 'Arizonia', cursive;
@@ -105,9 +125,9 @@
 }
 .section-desconto{
   background-image: url('../img/beauty-salon-img7.jpg');
-  position: relative;
+  /*position: relative;
   display: block;
-  top: 820px;
+  top: 820px;*/
 }
 .texto-section-grande{
   font-size:150px;
@@ -125,9 +145,94 @@
   color: white;
   font-weight: bold;
 }
-.footer{
+/*.footer{
     position: relative;
     display: block;
-    top: 820px;    
+    top: 820px;
+}*/
+.footer-contato{
+  position: relative;
+  display: block;
+  top: 845px;
+}
+.section-contato{
+  /*position: relative;
+  display: block;
+  top: 800px;*/
+  padding: 0 25% 0 25%;
+}
+.titulo-contato{
+   font-family: 'Arizonia', cursive;
+   text-align:center;
+   font-size:50px;
+   color:black;
 }
   /*Fim estilos kevin*/
+
+
+  /*Layane*/
+  .titulo-sobre{
+    font-family: 'Arizonia', cursive;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    padding: 15px;
+  }
+  .section-sobre p{
+    text-align: justify;
+  }
+
+  /*Fim Layane*/
+  @media screen and (max-width: 768px){
+    .carousel {
+    position: relative;
+    top: 0px;
+    margin-bottom: 15px;
+  }
+  .texto-slide h5{
+  font-family: 'Parisienne', cursive;
+  color: #fc84b4;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1em;
+  }
+  .texto-slide h1{
+  color: #ffffff;
+  font-family: "Montserrat", Sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 0.84em;
+  }
+  .texto-slide p {
+  display: none;
+  }
+  .texto-slide button {
+  width: 65%;
+  font-size: 0.7em;
+  }
+  .texto-slide {
+    top: 50%;
+    left: 50%;
+  }
+  .space-after-row {
+    margin-bottom: 15px;
+  }
+  .descontao p:first-child{
+  font-size: 2.5em;
+  line-height: 1.8rem;
+  }
+  .descontao p:nth-child(2){
+  font-size: 2em;
+  line-height: 1.8rem;
+  }
+  .section-contato{
+   padding: 0 5% 0 5%;
+  }
+  .titulo-contato{
+    font-size: 45px;
+    line-height: 2rem;
+    margin-bottom: 15px;
+  }
+  }
