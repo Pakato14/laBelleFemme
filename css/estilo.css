@@ -143,8 +143,8 @@
 .botao-section{
   margin-bottom: 40px;
   margin-top: 20px;
-  border-color: #fc0fc0;
-  background-color: #fc0fc0;
+  border-color: #fc84b4;
+  background-color: #fc84b4;
   color: white;
   font-weight: bold;
 }
@@ -169,6 +169,8 @@
    text-align:center;
    font-size:50px;
    color:black;
+   line-height: 30px;
+   margin-bottom: 25px;
 }
   /*Fim estilos kevin*/
 
@@ -183,12 +185,20 @@
   }
   .section-sobre p{
     text-align: justify;
+    padding-right: 25px;
+    padding-left: 25px;
   }
-  .make h2, h3{
+  .make h2{
   text-align: center;
   padding: 10px;
-  font-size: 38px;
+  font-size: 60px;
   font-family: 'Arizonia', cursive;
+}
+.make h3{
+text-align: center;
+padding: 05px;
+font-size: 40px;
+font-family: 'Arizonia', cursive;
 }
 .make p{
   text-align: justify;
@@ -199,7 +209,7 @@
 
   /*Fim Layane*/
   @media screen and (max-width: 768px){
-    .carousel {
+  .carousel {
     position: relative;
     top: 0px;
     margin-bottom: 15px;
@@ -226,10 +236,11 @@
   .texto-slide button {
   width: 65%;
   font-size: 0.7em;
+  font-weight: bold;
+  text-transform: uppercase;
   }
   .texto-slide {
-    top: 50%;
-    left: 50%;
+    top: 62%;
   }
   .space-after-row {
     margin-bottom: 15px;
@@ -244,5 +255,20 @@
   }
   .section-contato{
    padding: 0 5% 0 5%;
+  }
+  .titulo-contato, .titulo-sobre{
+     line-height: 35px;
+     margin-bottom: 25px;
+  }
+  .banner{
+    position: relative;
+    top: 0px;
+    margin-bottom: 15px;
+  }
+  .icones{
+    display: none;
+  }
+  .logo{
+    margin-right: 6rem;
   }
   }
